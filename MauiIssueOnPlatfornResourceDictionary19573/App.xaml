@@ -7,7 +7,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="{OnPlatform  iOS='Resources/Styles/Colors.ios.xaml', Android='Resources/Styles/Colors.an.xaml'}"/>
+                <ResourceDictionary Source="{OnPlatform  iOS='Resources/Styles/Colors.ios.xaml', Android='Resources/Styles/Colors.android.xaml'}"/>
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
